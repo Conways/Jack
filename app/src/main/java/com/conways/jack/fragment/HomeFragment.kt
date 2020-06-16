@@ -35,6 +35,7 @@ class HomeFragment : Fragment() {
 //        HomeFragmentDirections.actionHomeFragmentToDetailFragment()
         view.findNavController().navigate(R.id.action_homeFragment_to_detailFragment)
         Toast.makeText(activity, "actionHomeFragmentToDetailFragment", Toast.LENGTH_SHORT).show();
+
     }
 
 }
