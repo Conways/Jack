@@ -26,6 +26,7 @@ class HomeFragment : Fragment() {
 
         binding.fragmentHomeBt.setOnClickListener {
             it.findNavController().navigate(R.id.action_homeFragment_to_detailFragment)
+
         }
 
         return binding.root;
